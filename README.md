@@ -2,7 +2,7 @@
 Some climate tools, like reading DWD data
 
 # Aims
-## DWD + Bundetagentur
+## DWD + Bundesnetzagentur
  * Read climate and energy data (done)
  * Correlate (to do)
  * Map from DWD data (to do)
