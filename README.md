@@ -4,7 +4,7 @@ Some climate tools, like reading DWD data
 # Aims
 ## DWD + Bundesnetzagentur
  * Read climate and energy data (done)
- * Correlate (initial, more to do), see ![](https://github.com/CodeforKarlsruhe/climateStuff/blob/main/dwd-bnetza.png) 
+ * Correlate (initial, more to do), see ![](https://github.com/CodeforKarlsruhe/climateStuff/blob/main/dwd-bnetza.png) (TOP: Gas consumption industry and private housholds, BOTTOM:  Temperature in Germany, averaged from all available DWD stations)
  * Map from DWD data (to do)
  * Try to get more fine grain energy data from regional statistics or other sources (to do)
  * Heat map(s) of energy and temperatur and correlation (to do)
