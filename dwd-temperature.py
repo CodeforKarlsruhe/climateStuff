@@ -144,6 +144,7 @@ for f in validStations.file:
 x = dwd.resample(rule="1W",origin=datetime.datetime(2021,1,1)).mean()
 x["date"] = x.index # need a column
 x["kw"] = pd.to_datetime(x.date).dt.isocalendar().week
+x["yr"] = pd.to_datetime(x.date).dt.isocalendar().year
 x.to_csv("dwd-mean.csv")
 
 fig = x.plot(y=["Mean","Max","Min"])
