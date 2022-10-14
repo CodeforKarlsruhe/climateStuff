@@ -46,5 +46,10 @@ if len(dwd) > len(bna):
 klima = pd.merge(bna,dwd)
 klima["t"] = klima.Mean * 100 # scale temperature by 100
 klima.to_csv("klima.csv")
-klima.plot(y=["t","ind","prv"])
+fig, axes = plt.subplots(nrows=2, ncols=1,sharex=True)
+
+klima.plot(ax=axes[0],y=["ind","prv"])
+klima.plot(ax=axes[1],y=["Mean","Min","Max"])
+
 plt.show()
+
