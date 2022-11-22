@@ -82,7 +82,8 @@ kk = k21.join(k22,how="inner",rsuffix="_r")
 
 kk["idelta"] = (kk.ir_r - kk.ir)/kk.ir * 100.0
 kk["pdelta"] = (kk.pr_r - kk.pr)/kk.pr * 100.0
+kk["tdelta"] = (kk.t_r - kk.t)/100
 
-kk.plot(y=["idelta","pdelta","Mean"])
+kk.plot(y=["idelta","pdelta","tdelta","Mean"])
 
 plt.show()
